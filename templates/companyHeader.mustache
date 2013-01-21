@@ -1,0 +1,39 @@
+{{#company}}
+  <a href="{{url}}"><img src="{{bigImage}}"/></a>
+
+  <a href="{{logoUrl}}">
+    <img class="companyImage" src="{{logoImage}}" />
+  </a>
+
+  <div class="statistics">
+    <h1>{{name}}</h1>
+    <p>{{likes}}likes · {{talks}} talking about this</p>
+  </div>
+
+  <article id="about">
+    <a href="{{about.url}}">
+      <header>
+        <h4>{{about.header}}</h4>
+        <p>
+          {{about.description}}
+        </p>
+      </header>
+      <h3>{{about.title}}</h3>
+    </a>
+  </article>
+
+
+  {{#items}}
+      <article>
+          <a href="{{url}}">
+            <div class="img-wrapper">
+              <img src="{{src}}" />
+            </div>
+            <h3>{{title}}</h3>
+          </a>
+      </article>
+  {{/items}}
+
+
+
+{{/company}}

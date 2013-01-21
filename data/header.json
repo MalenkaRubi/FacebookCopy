@@ -1,0 +1,12 @@
+{
+  "user" : {
+    "name" : "Tanya",
+    "lastName": "Kosh",
+    "userPic" : "http://profile.ak.fbcdn.net/static-ak/rsrc.php/v2/yo/r/UlIqmHJn-SK.gif",
+
+    "controls" : [
+      {"url":"#Find_friends", "title":"Find friends"},
+      {"url":"#Home", "title":"Home"}
+    ]
+  }
+}

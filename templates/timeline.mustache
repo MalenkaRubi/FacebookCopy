@@ -1,0 +1,104 @@
+<h3>Highlights</h3>
+<div class="left">
+    <article class="post">
+        <div class="postnphotos">
+            <i></i><strong>Post</strong>
+            <a href="#" class="photo"><i></i>Photo/Video</a>
+        </div>
+        <input type="text"/>
+    </article>
+</div>
+
+{{#posts}}
+{{^footer}}
+<div class="{{orientation}}">
+    <article class="postuk">
+        <header>
+            {{#info}}
+            <div class="logo">
+               <span>5</span>
+            </div>
+            <h5><a href="{{info.author.url}}">{{info.author.name}}</a> liked <a href="{{linkUrl}}">Coca-cola</a>.</h5>
+            <a class="date" href="{{info.dateUrl}}">{{info.created}}<i></i></a>
+            {{/info}}
+        </header>
+
+        {{#description.img.addition}}
+        <div class="img-wrapper ">
+            <img src="{{src}}">
+        </div>
+        {{/description.img.addition}}
+   </article>
+</div>
+{{/footer}}
+
+
+
+  <div class="{{orientation}}">
+    <article class="post">
+      <header>
+          {{#info}}
+        <div class="bottleImage">
+          <a href="#"><img src="{{info.author.pic}}" /></a>
+        </div>
+        <h5><a href="{{info.author.url}}">{{info.author.name}}</a> shared a <a href="{{linkUrl}}">link</a>.</h5>
+        <a class="date" href="{{info.dateUrl}}">{{info.created}}<i></i></a>
+          {{/info}}
+      </header>
+
+      <img src="{{description.img.main}}"/>
+        {{#description.img.addition}}
+            <div class="img-wrapper ">
+                 <img src="{{src}}">
+            </div>
+        {{/description.img.addition}}
+      <footer>
+          {{#footer}}
+             <a href="{{url}}">{{title}}</a>
+          {{/footer}}
+             <div class="activity">
+              <a href="#" class="likes"><i></i>11456</a>
+              <a href="#" class="comments"><i></i>145</a>
+              <a href="#" class="shares"><i></i>56</a>
+            </div>
+
+      </footer>
+    </article>
+  </div>
+
+
+{{/posts}}
+
+
+<div class="left">
+ <article class="post">
+    <header>
+      <div class="bottleImage">
+        <a href="#"><img src="http://profile.ak.fbcdn.net/hprofile-ak-prn1/174560_40796308305_2093137831_q.jpg" />
+        </a>
+      </div>
+      <h5><a href="#">Coca-cola</a> shared a <a href="#">link</a>.</h5>
+      <a class="date" href="#">July15, 2012<i></i></a>
+    </header>
+      <p><a href="http://www.facebook.com/media/set/?set=a.10150834180988306.434061.40796308305&type=1">
+          Buscamos héroes en la Plaza Brión de Chacaíto</a>Estuvimos en la Plaza Brión de Chacaíto buscando héroes.
+      </p>
+    <img src="http://sphotos-b.ak.fbcdn.net/hphotos-ak-ash3/523812_10150740062138306_1155768689_n.jpg"/>
+    <footer>
+      <a href="#">Like</a>
+      <a href="#">Comment</a>
+      <a href="#">Share</a>
+      <div class="activity">
+        <a href="#" class="likes"><i></i>11456</a>
+        <a href="#" class="comments"><i></i>145</a>
+        <a href="#" class="shares"><i></i>56</a>
+      </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+<h3><a name="section2">2011</a></h3>
+
