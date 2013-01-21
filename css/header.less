@@ -1,0 +1,35 @@
+@import "common.less";
+/* Header */
+
+#header {
+  width: 100%; height: @headerHight; position: fixed; background: #3B5998; color: white; z-index: 999; margin-top: 0px; z-index: 999;
+ .headerwrapper  { width: 980px; margin: auto;}
+
+ .logo           { float: left;  margin: 0;}
+ .logo  a        { background-image:url("img/back-sprite.png"); background-position:3px 203px; color:transparent;
+                   display:block; font-size:16px; height:29px; margin-left:-6px; margin-top:6px; width:108px;
+                 }
+ a:hover  { background-color:#4B67A1; }
+
+ nav {
+   a           { margin-top: 6px; float: left; height: 28px; width: 24px; background-image:url("img/back-sprite.png"); }
+
+   a.friends   { background-position: 47px 270px }
+   a.msg       { background-position: 54px 134px}
+   a.notif     { background-position: 54px 169px;}
+ }
+
+/* User */
+ .user            {
+  float: right; margin-top: 15px; white-space: nowrap; margin-left:-1px;
+ a          { padding:7px 0; color: white; font-weight: bold; text-decoration: none; margin-top: 10px;  margin-left: -1px;
+              color: #D8DFEA; }
+ a span     { border-right:1px solid #526DA4; padding:0 12px; }
+ a span img { border:0 none; left:-6px; line-height:inherit !important; margin-top:-22px; position:relative; top:7px; width:22px; }
+                  }}
+
+
+/* Search */
+ form            { float:left; height: 21px; margin-top: 10px;}
+#header input           { width: 345px; border: none; height: 21px; padding-left: 5px;}
+.search button  { background: url("img/sprite2.png") repeat scroll -229px 74px white; height: 23px; width: 22px; border: none;}

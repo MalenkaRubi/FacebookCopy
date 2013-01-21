@@ -1,0 +1,21 @@
+<div class="headerwrapper">
+<h1 class="logo">
+  <a href="#">Facebook</a>
+</h1>
+<nav>
+  <a href="#" class="friends"></a>
+  <a href="#" class="msg"></a>
+  <a href="#" class="notif"></a>
+</nav>
+
+<form class="search" action="#">
+  <input type="text"/><button>&nbsp;</button>
+</form>
+<div class="user">
+  <a href="#">
+        <span><img src="{{user.userPic}}"/>{{user.name}} {{user.lastName}}</span></a>
+          {{#user.controls}}
+            <a href="{{url}}"><span>{{title}}</span></a>
+          {{/user.controls}}
+  </div>
+</div>

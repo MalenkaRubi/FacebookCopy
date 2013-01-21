@@ -1,0 +1,43 @@
+{
+    "company":{
+        "name":"Coca-cola",
+        "url":"#ImageUrl",
+        "bigImage":"http://sphotos-e.ak.fbcdn.net/hphotos-ak-ash3/557402_10151948639733306_1048781480_n.png",
+        "logoImage":"http://sphotos-d.ak.fbcdn.net/hphotos-ak-ash4/417762_10150651498353306_1544063326_n.jpg",
+        "likes":"52,248,944",
+        "talks":"1,476,067",
+
+        "about":{
+            "url":"#",
+            "header":"Food/Beverages",
+            "description":"The Coca-Cola Facebook Page is a collection of your stories showing how people from around the world have helped make Coke into what it is today.",
+            "title":"About"
+        },
+
+        "items":[
+            {
+                "url":"#",
+                "src":"http://sphotos-g.ak.fbcdn.net/hphotos-ak-prn1/s720x720/539962_10151957432353306_1022371918_n.jpg",
+                "title":"Photos"
+            },
+
+            {
+                "url":"#",
+                "src":"http://sphotos-a.ak.fbcdn.net/hphotos-ak-ash4/318489_10151950310938306_1771662871_n.jpg",
+                "title":"Likes"
+            },
+
+            {
+                "url":"#",
+                "src":"http://sphotos-b.ak.fbcdn.net/hphotos-ak-snc6/246614_10151946581128306_1070807657_n.jpg",
+                "title":"Home"
+            },
+
+            {
+                "url":"#",
+                "src":"http://sphotos-c.ak.fbcdn.net/hphotos-ak-ash4/486813_10151954068203306_310982593_n.jpg",
+                "title":"Videos"
+            }
+        ]
+    }
+}
